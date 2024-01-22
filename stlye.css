@@ -1,0 +1,139 @@
+/* epilogue-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/epilogue-v17-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* epilogue-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/epilogue-v17-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: flex;
+}
+ol,ul {
+    list-style: none;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: 'Epilogue',sans-serif;
+    font-weight: 500;
+    color: #686868;
+}
+/* heder start */
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    padding: 31px 40px;
+
+}
+
+.site-img {
+    margin-right: 62px;
+}
+
+.sitenav-list {
+    margin-right: auto;
+    display: flex;
+    gap: 57px;
+    align-items: center;
+}
+
+
+
+.sitenav-link {
+    font-size: 14px;
+    color: #686868;
+}
+
+.header-content {}
+
+.content-login {
+    margin-right: 40px;
+    font-size: 14px;
+    color: #686868;
+
+}
+
+.content-register {
+    color: #686868;
+    padding: 13px 23px;
+    border: 1px solid #686868;
+    border-radius: 14px;
+}
+
+/* main start */
+.main { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:   110px 125px;
+   
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-title {
+    width: 540px;
+    font-size: 80px;
+    line-height: 80px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.description {
+    width: 445px;
+   font-size: 18px;
+   line-height: 28px;
+   margin-bottom: 51px;
+}
+
+.project-link {
+    width: 163px;
+
+    display: inline-block;
+    padding:  15px    31px ;
+    background-color: black;
+    color: #ffff;
+    margin-bottom: 150px;
+    border-radius: 15px;
+    
+}
+
